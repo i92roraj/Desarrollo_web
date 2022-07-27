@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Javier</title>
+</head>
+<body>
+    <form action="/signup" method="post">
+        <p>
+          <label>Nombre</label><br>
+          <input type="text" name="first_name">
+        </p>
+        <p>
+          <label>Apellidos</label><br>
+          <input type="text" name="last_name">
+        </p>
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="email" required>
+        </p>
+        <p>
+          <label>Fecha de Nacimiento</label><br>
+          <input type="date" name="date">
+        </p>
+        <p>
+          <label>Contraseña</label><br>
+          <input type="password" name="password">
+        </p>
+        <p>
+          <label>Edad</label><br>
+          <input type="number" name="age">
+        </p>
+
+        
+        <p>
+          <label>
+            <input type="checkbox" value="terms">
+            Estoy de acuerdo a acpetar <a href="/terms">los terminos y condiciones</a>
+          </label>
+        </p>
+        <p>
+          <button>Enviar</button>
+          <button type="reset">Resetear</button>
+        </p>
+      </form>
+</body>
+</html>
